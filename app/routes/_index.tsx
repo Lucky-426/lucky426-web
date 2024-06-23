@@ -2,37 +2,15 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix SPA" },
-    { name: "description", content: "Welcome to Remix (SPA Mode)!" },
+    { title: "Lucky 426" },
+    { name: "description", content: "Welcome to Lucky 426!" },
   ];
 };
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
-      <h1 className="text-3xl">Welcome to Remix (SPA Mode)</h1>
-      <ul className="list-disc mt-4 pl-6 space-y-2">
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/guides/spa-mode"
-            rel="noreferrer"
-          >
-            SPA Mode Guide
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/docs"
-            rel="noreferrer"
-          >
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+    <div className="flex h-screen items-center justify-center">
+      <h1 className="font-custom text-custom-text text-5xl">Lucky 426</h1>
     </div>
   );
 }
