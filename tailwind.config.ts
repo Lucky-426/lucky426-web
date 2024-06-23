@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         "custom-bg": "#223631",
-        "custom-text": "#b2a379",
+        "custom-text": "#bbaa7f",
       },
       fontFamily: {
         custom: ["BerkeleyMono", "monospace"],
